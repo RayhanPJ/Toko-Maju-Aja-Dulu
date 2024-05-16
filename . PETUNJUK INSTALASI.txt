@@ -1,0 +1,14 @@
+PETUNJUK INSTALASI & KONFIGURASI :
+
+syarat instalasi :
+- sudah ter-install composer
+
+1. Copy/Cut folder project ke folder htdocs
+2. Buka CMD dan arahkan ke folder project, kemudian jalankan perintah `composer install` dan 'composer require dompdf/dompdf'
+3. Buka Visual Studio Code (text editor)
+4. Buka file `application/config/config.php` 
+5. Ubah isi dari variable `$config['base_url']` dengan `http://localhost/namafolder/`
+6. Untuk `namafolder` silahkan ganti sesuai nama folder dari aplikasi ini di komputer atau laptop teman-teman
+7. Import `db_inventori.sql` ke database milik kalian (saran beri nama database 'db_inventori')
+8. Untuk login `admin` kalian bisa menggunakan username = `adi` dan password `123`
+9. Untuk login `petugas` kalian bisa menggunakan username = `ptgs1` dan password `123`
